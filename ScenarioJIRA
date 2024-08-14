@@ -1,0 +1,35 @@
+/*******************************Test ************************************
+*  Description : This file contains Scenario, Jira id and QA  
+*  Created by : Offshore Team QE practice
+*  Created on: 30 July 2024
+*  Last Updated on: 1 Aug 2024
+*  Updated By : Amol Lad 
+*************************************************************************************/
+1. Check Binaries versions are matching to Axial (Prod-manifest)-C21319636,VZ-558, Poojashree
+2. Verify Input Switching across all inputs shown from top to bottom-C21319622,VZ-545, Pronoy Build-->5.710.16.1-v240711-0137
+3. Verify Input Switching from Virtual inputs to Physical Inputs-C21319623,VZ-546, Pronoy Build-->5.710.16.1-v240711-0137
+4. Verify Input Switching from Physical inputs to Virtual inputs-C21319624,VZ-547,	Pronoy Build-->5.710.16.1-v240711-0137
+5. DC Power OFF/ON when 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Eco'-C21319595,VZ-548 Poojashree Buid 5.710.16.1-v240711-0137
+6. DC Power OFF/ON when 'Input at Power On' set as 'VIZIO Home' & 'Power Mode' set as 'Eco'-C21319596,VZ-549 Poojashree Build 5.710.16.1-v240711-013
+7. DC Power OFF/ON when 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Quick Start'-C21319597,VZ-550 Poojashree 5.710.16.1-v240711-0137
+8. DC Power OFF/ON when 'Input at Power On' set as  'VIZIO Home' & 'Power Mode' set as 'Quick Start'-C21319598,VZ-551	Pronoy Build-->5.710.16.1-v240711-0137
+9. DC Power OFF/ON on top of native apps with 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Eco Mode'-C21319599,VZ-552	Amol Build-->3.710.16.1-v240711-0137
+10. DC Power OFF/ON on top of native apps with 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Quick Start'-C21319600,VZ-553	Karishma Build-->3.710.16.1-v240711-0137
+11. DC Power OFF/ON on top of native apps with 'Input at Power On' set as  'VIZIO Home' & 'Power Mode' set as 'Eco Mode'-C21319601,VZ-554	Amol Build-->3.710.16.1-v240711-0137
+12. DC Power OFF/ON on top of native apps with 'Input at Power On' set as 'VIZIO Home'' & 'Power Mode' set as 'Quick Start'-C21319602,VZ-555 Karishma--> Done-->working on chipset-5583-Build-->3.710.16.1-v240711-0137--> Partially automated pending for Netflix and YouTube Elements.
+13. DC Power OFF/ON on top of HTML apps with 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Eco Mode'-C21319603,VZ-556	Amol working on chipset-5583-Build-->3.710.16.1-v240711-0137
+14. DC Power OFF/ON Disable automatic Reboot when TV is in Demo mode-C21319608,VZ-557	Reeba --> DC Power Cycle issue
+15. Bluetooth > Unpair BT RCU-C21319617,VZ-572	Reeba Build-->3.710.16.1-v240711-0137
+16. Navigation across all options in 'TV Information' screen-C21319641,VZ-579	Subhashree
+17. Circular navigation on Main Menu Level and Settings Level-C21319640,VZ-580	Pronoy Build-->5.710.16.1-v240711-0137
+18. Verify 'Auto Power OFF' setting-C21319645, VZ-610
+19. DC Power OFF/ON on top of HTML apps with 'Input at Power On' set as 'Last Used TV Input' & 'Power Mode' set as 'Quick Start'-C21319604, VZ-625 Pratigya Build-->5.710.16.1-v240711-0137
+20.BootOnSCTV on top of inactive HDMI Input Source & verify timer to elapse by itself while 'Input at Power On' is set to 'VIZIO Home' & 'Power Mode' is set to ‘Eco Mode’-C21319651, VZ-590, Prasanna working on chipset 5691-Build -->1.710.16.1 -v240711-0137
+21.BootOnSCTV on top of inactive HDMI Input Source & hit 'Return to Home' option during timer display while 'Input at Power On' is set to 'VIZIO Home' & 'Power Mode' is set to ‘Quick Start’-C21319656,VZ-615, Prasanna working on chipset 5691-Build -->1.710.16.1 -v240711-0137
+22.BootOnSCTV on top of inactive HDMI Input Source & hit 'Return to Home'  option during timer display while  'Input at Power On' is set to 'VIZIO Home' & 'Power Mode' is set to ‘Eco Mode’-C21319655,VZ-619, Prasanna working on chipset 5691-Build -->1.710.16.1 -v240711-0137
+23.BootOnSCTV on top of inactive HDMI Input Source & hit 'Cancel'  option during timer display while  'Input at Power On' is set to 'VIZIO Home' & 'Power Mode' is set to ‘Quick Start’--C21319654,VZ-618, Prasanna working on chipset 5691-Build -->1.710.16.1 -v240711-0137
+
+
+
+
+

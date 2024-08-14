@@ -1,0 +1,16 @@
+/*******************************Naming Conventions************************************
+*  Description : This file contains Abrivations for all short keys used in project 
+*  Created by : Offshore Team QE practice
+*  Created on: 30 July 2024
+*  Last Updated on: 01 Aug 2024
+*  Updated By : Amol Lad 
+*******************************************************************/
+PM = Power Mode
+EM = Eco Mode 
+QSM = Quick Start Mode
+txt_box = text box
+btn = button 
+btn_aply = apply button 
+lbl = labels 
+dd = drop down 
+btn_input = SOURCE

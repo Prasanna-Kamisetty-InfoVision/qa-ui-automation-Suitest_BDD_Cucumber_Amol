@@ -1,0 +1,22 @@
+{
+  "name": "suitest-js-api-cucumber-demo",
+  "version": "2.0.0",
+  "description": "An example of Suitest <-> Cucumber integration",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "suitest run cucumber-js --tags \\\"@e2e\\\" -f json:report/cucumber_report.json -f summary",
+    "start:junit": "suitest run cucumber-js --tags \\\"@e2e\\\" -f node_modules/cucumber-junit-formatter:report/cucumber_report.xml -f summary",    
+    "start:smoke": "suitest run cucumber-js --tags \\\"@e2e and @smoke\\\" -f json:report/cucumber_report.json -f summary",
+    "parallel": "suitest run --config-file=.suitestrc.parallel.json cucumber-js --tags \\\"@e2e\\\" -f json:report/'\"${SUITEST_CHILD_PROCESS%%|*}\"'.json -f summary",
+    "parallel:smoke": "suitest run --config-file=.suitestrc.parallel.json cucumber-js --tags \\\"@smoke\\\" -f json:report/'\"${SUITEST_CHILD_PROCESS%%|*}\"'.json -f summary",
+    "parallel:smoke:windows": "suitest run --config-file=.suitestrc.parallel.json cucumber-js --tags \\\"@smoke\\\" -f \\\"json:report/%SUITEST_CHILD_PROCESS:|=_pid_%.json\\\" -f summary",
+    "report:html": "node ./report.js"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.5.0",
+    "cucumber-junit-formatter": "^0.2.2",
+    "suitest-js-api": "^3.0.2"
+  }
+}

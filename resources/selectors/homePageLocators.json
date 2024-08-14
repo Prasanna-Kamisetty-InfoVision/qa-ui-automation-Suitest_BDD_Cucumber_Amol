@@ -1,0 +1,12 @@
+{
+    "homeIconFocused": {
+        "xpath": "//Row[2]/RowReverse/Column[./Icon[@name=\"home\"]][./Rectangle[@color=\"#ff4700ff\"]]"
+    },
+    "trendingNowTitle": {
+        "xpath": "//Column/Column[1]/Container/Text"
+    },
+    "AppAndInput": {
+        "xpath": "*//Column[2]/Container/Text"
+    }
+
+}

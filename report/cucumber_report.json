@@ -1,0 +1,145 @@
+[
+  {
+    "description": " BootOnSCTV on top of inactive HDMI Input Source & hit 'Cancel' option during timer display while 'Input at Power On' is set to 'VIZIO Home'&'Power Mode' is set to Quick Start",
+    "keyword": "Feature",
+    "name": "Smoke test",
+    "line": 11,
+    "id": "smoke-test",
+    "tags": [
+      {
+        "name": "@e2e",
+        "line": 10
+      },
+      {
+        "name": "@smoke",
+        "line": 10
+      }
+    ],
+    "uri": "features\\app\\InputSwitching\\bootOnSCTvHDMIInputSourceHitCANCELsetAsPMtoQuickStart.feature",
+    "elements": [
+      {
+        "id": "smoke-test;boot-on-sctv-hdmi-input-source-hit-cancel-pm-to-quick-start",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "boot On SCTv HDMI Input Source Hit Cancel PM To Quick Start",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 10
+          },
+          {
+            "name": "@smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Ensure 'Input at Power On' is set to 'VIZIO Home' and 'Power Mode' is set to Quick Start in Menu > All Settings >> System",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I am on Vizio Home page",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Input menu",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click on the HDMI-1",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "It should switch to selected HDMI-1 input and display message.",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Wait for 30 secs and should display countdown timer for 30 secs to bottom left of screen and should display message",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Hit the Cancel",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "It should remain on same input source for ex: HDMI 1 with same notification message",
+            "match": {
+              "location": "..\\..\\qa-ui-automation-Suitest_BDD_Cucumber_Amol 4\\qa-ui-automation-Suitest_BDD_Cucumber_Amol\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

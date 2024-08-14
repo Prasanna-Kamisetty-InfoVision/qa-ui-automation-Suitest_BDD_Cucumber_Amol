@@ -1,0 +1,5 @@
+{
+  "extends": ".suitestrc.base.json",
+  "deviceId": "d1bc7b8c-5f46-447f-ae16-d4afeab167c2",
+  "appConfigId": "9d391f46-2312-4943-bab2-e3dd2d2361b8"
+}

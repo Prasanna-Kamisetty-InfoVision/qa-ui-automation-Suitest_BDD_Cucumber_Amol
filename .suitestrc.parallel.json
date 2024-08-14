@@ -1,0 +1,10 @@
+{
+  "extends": ".suitestrc.base.json",
+  "preset": ["Pune_5583_134"],
+  "presets": {
+    "Pune_5583_134": {
+      "device": "755e1e93-bc2a-4ab6-9294-da0f13a2762f",
+      "config": "9d391f46-2312-4943-bab2-e3dd2d2361b8"
+    }
+  }
+}
